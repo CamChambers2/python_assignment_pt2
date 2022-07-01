@@ -2,7 +2,7 @@
 
 This repo builds on the [r binder](https://github.com/binder-examples/r) and [jupyter lab binder](https://github.com/binder-examples/jupyterlab) and is complementary to the [multi-language-demo binder](https://github.com/binder-examples/multi-language-demo) with examples on using both R and python in both Jupyter Lab and RStudio.
 
- - Launch in Jupyter Lab: [![Binder](http://mybinder.org/badge.svg)](https://notebooks.gesis.org/binder/jupyter/user/camchambers2-py-_assignment_pt2-a60hfe6d/lab/tree/python_regresslin.ipynb)
+ - Launch in Jupyter Lab: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/CamChambers2/python_assignment_pt2/master?urlpath=lab)
  - Launch in RStudio: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/CamChambers2/python_assignment_pt2/master?urlpath=rstudio)
 
 Example files included:
