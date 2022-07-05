@@ -1,0 +1,12 @@
+{
+  "base_url": "/binder/jupyter/user/camchambers2-py-_assignment_pt2-nue72mis/",
+  "hostname": "0.0.0.0",
+  "notebook_dir": "/home/jovyan",
+  "password": false,
+  "pid": 520,
+  "port": 8888,
+  "secure": false,
+  "sock": "",
+  "token": "o0IUpDbrRuK-tJua6fCT5Q",
+  "url": "http://0.0.0.0:8888/binder/jupyter/user/camchambers2-py-_assignment_pt2-nue72mis/"
+}

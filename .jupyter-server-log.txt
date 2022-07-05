@@ -1,0 +1,61 @@
+[I 16:09:36.242 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2022-07-05 16:09:37.493 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-05 16:09:37.493 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-05 16:09:37.493 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-05 16:09:37.493 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-05 16:09:37.493 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-05 16:09:37.493 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-05 16:09:37.493 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-05 16:09:37.493 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-07-05 16:09:37.493 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-07-05 16:09:37.493 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-05 16:09:37.493 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-05 16:09:37.493 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-05 16:09:37.505 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.9/site-packages/jupyterlab
+[I 2022-07-05 16:09:37.505 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 16:09:37.515 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.9/site-packages/nteract_on_jupyter
+[I 16:09:37.517 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 16:09:37.518 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 16:09:37.518 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 16:09:37.518 NotebookApp] http://jupyter-camchambers2-2dpy-2d-5fassignment-5fpt2-2dnue72mis:8888/binder/jupyter/user/camchambers2-py-_assignment_pt2-nue72mis/?token=...
+[I 16:09:37.518 NotebookApp]  or http://127.0.0.1:8888/binder/jupyter/user/camchambers2-py-_assignment_pt2-nue72mis/?token=...
+[I 16:09:37.518 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:09:37.522 NotebookApp] No web browser found: could not locate runnable browser.
+[I 16:09:39.010 NotebookApp] 302 GET /binder/jupyter/user/camchambers2-py-_assignment_pt2-nue72mis/ (10.244.90.5) 1.630000ms
+[I 16:13:09.044 NotebookApp] 301 GET /binder/jupyter/user/camchambers2-py-_assignment_pt2-nue72mis/static/favicons/favicon.ico (140.254.70.224) 1.050000ms
+[I 2022-07-05 16:13:53.257 LabApp] Build is up to date
+[I 16:14:05.743 NotebookApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[W 16:14:05.743 NotebookApp] Notebook python_linregress.ipynb is not trusted
+[I 16:14:13.903 NotebookApp] Kernel started: 16f71dd3-33f8-4a42-bc0d-282ef5acc858, name: python3
+[I 16:14:13.904 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 16:14:13.904 NotebookApp] Culling kernels even with connected clients
+[I 16:14:15.039 NotebookApp] Starting buffering for 16f71dd3-33f8-4a42-bc0d-282ef5acc858:f504f6d1-79e0-4057-80a8-b3b285b7c500
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[I 16:14:15.380 NotebookApp] 301 GET /binder/jupyter/user/camchambers2-py-_assignment_pt2-nue72mis/static/favicons/favicon-busy-1.ico (140.254.70.224) 1.060000ms
+[IPKernelApp] WARNING | No such comm: 641fce12-61ac-4da2-88b8-2b3d4264bcf3
+[W 16:14:17.890 NotebookApp] Notebook python_linregress.ipynb is not trusted
+[I 16:14:22.632 NotebookApp] Uploading file to /python_linregress.py
+[I 16:15:16.167 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 16:20:51.693 NotebookApp] Saving file at /python_linregress.py
+[I 16:22:51.991 NotebookApp] Saving file at /python_linregress.py
+[I 16:24:53.214 NotebookApp] Saving file at /python_linregress.py
+[W 16:25:13.905 NotebookApp] Culling 'idle' kernel 'python3' (16f71dd3-33f8-4a42-bc0d-282ef5acc858) with 2 connections due to 658 seconds of inactivity.
+[I 16:25:13.906 NotebookApp] Kernel shutdown: 16f71dd3-33f8-4a42-bc0d-282ef5acc858
+[I 16:26:55.260 NotebookApp] Saving file at /python_linregress.py
+[I 16:28:55.708 NotebookApp] Saving file at /python_linregress.py
+[I 16:32:57.159 NotebookApp] Saving file at /python_linregress.py
+[I 16:34:57.446 NotebookApp] Saving file at /python_linregress.py
+[I 16:36:57.756 NotebookApp] Saving file at /python_linregress.py
+[I 16:38:58.055 NotebookApp] Saving file at /python_linregress.py
+[I 16:40:58.810 NotebookApp] Saving file at /python_linregress.py
+[I 16:42:59.117 NotebookApp] Saving file at /python_linregress.py
+[I 16:46:59.755 NotebookApp] Saving file at /python_linregress.py
+[I 16:48:41.141 NotebookApp] Saving file at /python_linregress.py
+[I 16:50:41.425 NotebookApp] Saving file at /python_linregress.py
+[I 16:52:41.722 NotebookApp] Saving file at /python_linregress.py
+[I 16:53:32.961 NotebookApp] Saving file at /python_linregress.py
+[I 16:55:34.240 NotebookApp] Saving file at /python_linregress.py
+[I 16:56:07.094 NotebookApp] Saving file at /python_linregress.py
+[I 16:57:47.415 NotebookApp] Saving file at /python_linregress.py

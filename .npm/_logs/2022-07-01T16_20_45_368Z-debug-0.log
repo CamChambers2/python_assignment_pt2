@@ -1,0 +1,179 @@
+0 verbose cli [
+0 verbose cli   '/srv/conda/envs/notebook/bin/node',
+0 verbose cli   '/srv/conda/envs/notebook/bin/npm',
+0 verbose cli   'pack',
+0 verbose cli   '@jupyterlab/toc'
+0 verbose cli ]
+1 info using npm@8.5.5
+2 info using node@v17.9.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/srv/conda/envs/notebook/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/tmp/tmpx0ajzpvd/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 12ms
+11 timing config:load:file:/home/jovyan/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/srv/npm/npmrc Completed in 12ms
+14 timing config:load:global Completed in 12ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 16ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 47ms
+19 timing npm:load:configload Completed in 47ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 3ms
+22 timing npm:load:display Completed in 4ms
+23 verbose logfile /home/jovyan/.npm/_logs/2022-07-01T16_20_45_368Z-debug-0.log
+24 timing npm:load:logFile Completed in 5ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 56ms
+28 http fetch GET 200 https://registry.npmjs.org/npm 193ms (cache miss)
+29 http fetch GET 200 https://registry.npmjs.org/@jupyterlab%2ftoc 233ms (cache miss)
+30 http fetch GET 200 https://registry.npmjs.org/@jupyterlab%2ftoc 8ms (cache hit)
+31 silly tarball no local data for https://registry.npmjs.org/@jupyterlab/toc/-/toc-5.4.3.tgz. Extracting by manifest.
+32 http fetch GET 200 https://registry.npmjs.org/@jupyterlab/toc/-/toc-5.4.3.tgz 787ms (cache miss)
+33 notice
+34 notice 📦  @jupyterlab/toc@5.4.3
+35 notice === Tarball Contents ===
+36 notice 95B    README.md                                                
+36 notice 107B   lib/generators/index.d.ts                                
+36 notice 282B   lib/generators/index.js                                  
+36 notice 237B   lib/generators/index.js.map                              
+36 notice 529B   lib/generators/latex/index.d.ts                          
+36 notice 2.8kB  lib/generators/latex/index.js                            
+36 notice 1.8kB  lib/generators/latex/index.js.map                        
+36 notice 792B   lib/generators/markdown/get_headings.d.ts                
+36 notice 1.7kB  lib/generators/markdown/get_headings.js                  
+36 notice 1.3kB  lib/generators/markdown/get_headings.js.map              
+36 notice 791B   lib/generators/markdown/get_rendered_headings.d.ts       
+36 notice 2.4kB  lib/generators/markdown/get_rendered_headings.js         
+36 notice 1.8kB  lib/generators/markdown/get_rendered_headings.js.map     
+36 notice 1.7kB  lib/generators/markdown/index.d.ts                       
+36 notice 5.0kB  lib/generators/markdown/index.js                         
+36 notice 3.0kB  lib/generators/markdown/index.js.map                     
+36 notice 1.8kB  lib/generators/markdown/options_manager.d.ts             
+36 notice 1.7kB  lib/generators/markdown/options_manager.js               
+36 notice 1.2kB  lib/generators/markdown/options_manager.js.map           
+36 notice 434B   lib/generators/markdown/render.d.ts                      
+36 notice 1.1kB  lib/generators/markdown/render.js                        
+36 notice 905B   lib/generators/markdown/render.js.map                    
+36 notice 2.5kB  lib/generators/markdown/toolbar_generator.d.ts           
+36 notice 1.8kB  lib/generators/markdown/toolbar_generator.js             
+36 notice 1.3kB  lib/generators/markdown/toolbar_generator.js.map         
+36 notice 863B   lib/generators/notebook/append_collapsible_heading.d.ts  
+36 notice 2.7kB  lib/generators/notebook/append_collapsible_heading.js    
+36 notice 1.8kB  lib/generators/notebook/append_collapsible_heading.js.map
+36 notice 559B   lib/generators/notebook/append_heading.d.ts              
+36 notice 1.3kB  lib/generators/notebook/append_heading.js                
+36 notice 840B   lib/generators/notebook/append_heading.js.map            
+36 notice 967B   lib/generators/notebook/append_markdown_heading.d.ts     
+36 notice 1.5kB  lib/generators/notebook/append_markdown_heading.js       
+36 notice 888B   lib/generators/notebook/append_markdown_heading.js.map   
+36 notice 1.2kB  lib/generators/notebook/codemirror.d.ts                  
+36 notice 1.3kB  lib/generators/notebook/codemirror.js                    
+36 notice 924B   lib/generators/notebook/codemirror.js.map                
+36 notice 935B   lib/generators/notebook/get_code_cell_heading.d.ts       
+36 notice 1.5kB  lib/generators/notebook/get_code_cell_heading.js         
+36 notice 1.2kB  lib/generators/notebook/get_code_cell_heading.js.map     
+36 notice 316B   lib/generators/notebook/get_last_heading_level.d.ts      
+36 notice 637B   lib/generators/notebook/get_last_heading_level.js        
+36 notice 569B   lib/generators/notebook/get_last_heading_level.js.map    
+36 notice 916B   lib/generators/notebook/get_markdown_heading.d.ts        
+36 notice 2.1kB  lib/generators/notebook/get_markdown_heading.js          
+36 notice 1.3kB  lib/generators/notebook/get_markdown_heading.js.map      
+36 notice 1.3kB  lib/generators/notebook/get_rendered_html_heading.d.ts   
+36 notice 3.2kB  lib/generators/notebook/get_rendered_html_heading.js     
+36 notice 2.5kB  lib/generators/notebook/get_rendered_html_heading.js.map 
+36 notice 908B   lib/generators/notebook/index.d.ts                       
+36 notice 10.7kB lib/generators/notebook/index.js                         
+36 notice 7.7kB  lib/generators/notebook/index.js.map                     
+36 notice 430B   lib/generators/notebook/is_heading_filtered.d.ts         
+36 notice 1.0kB  lib/generators/notebook/is_heading_filtered.js           
+36 notice 858B   lib/generators/notebook/is_heading_filtered.js.map       
+36 notice 5.1kB  lib/generators/notebook/options_manager.d.ts             
+36 notice 6.3kB  lib/generators/notebook/options_manager.js               
+36 notice 4.2kB  lib/generators/notebook/options_manager.js.map           
+36 notice 660B   lib/generators/notebook/render.d.ts                      
+36 notice 7.1kB  lib/generators/notebook/render.js                        
+36 notice 5.1kB  lib/generators/notebook/render.js.map                    
+36 notice 2.6kB  lib/generators/notebook/tagstool/index.d.ts              
+36 notice 6.9kB  lib/generators/notebook/tagstool/index.js                
+36 notice 5.3kB  lib/generators/notebook/tagstool/index.js.map            
+36 notice 1.5kB  lib/generators/notebook/tagstool/tag_list.d.ts           
+36 notice 2.3kB  lib/generators/notebook/tagstool/tag_list.js             
+36 notice 1.7kB  lib/generators/notebook/tagstool/tag_list.js.map         
+36 notice 913B   lib/generators/notebook/tagstool/tag.d.ts                
+36 notice 832B   lib/generators/notebook/tagstool/tag.js                  
+36 notice 569B   lib/generators/notebook/tagstool/tag.js.map              
+36 notice 3.7kB  lib/generators/notebook/toolbar_generator.d.ts           
+36 notice 7.1kB  lib/generators/notebook/toolbar_generator.js             
+36 notice 5.3kB  lib/generators/notebook/toolbar_generator.js.map         
+36 notice 533B   lib/generators/python/index.d.ts                         
+36 notice 2.5kB  lib/generators/python/index.js                           
+36 notice 1.9kB  lib/generators/python/index.js.map                       
+36 notice 301B   lib/generators/python/render.d.ts                        
+36 notice 812B   lib/generators/python/render.js                          
+36 notice 523B   lib/generators/python/render.js.map                      
+36 notice 191B   lib/index.d.ts                                           
+36 notice 366B   lib/index.js                                             
+36 notice 258B   lib/index.js.map                                         
+36 notice 4.3kB  lib/registry.d.ts                                        
+36 notice 1.8kB  lib/registry.js                                          
+36 notice 1.2kB  lib/registry.js.map                                      
+36 notice 1.2kB  lib/toc_item.d.ts                                        
+36 notice 1.3kB  lib/toc_item.js                                          
+36 notice 952B   lib/toc_item.js.map                                      
+36 notice 1.4kB  lib/toc_tree.d.ts                                        
+36 notice 1.2kB  lib/toc_tree.js                                          
+36 notice 984B   lib/toc_tree.js.map                                      
+36 notice 2.7kB  lib/toc.d.ts                                             
+36 notice 5.4kB  lib/toc.js                                               
+36 notice 4.2kB  lib/toc.js.map                                           
+36 notice 425B   lib/utils/generate_numbering.d.ts                        
+36 notice 1.3kB  lib/utils/generate_numbering.js                          
+36 notice 1.2kB  lib/utils/generate_numbering.js.map                      
+36 notice 2.0kB  lib/utils/headings.d.ts                                  
+36 notice 862B   lib/utils/headings.js                                    
+36 notice 441B   lib/utils/headings.js.map                                
+36 notice 460B   lib/utils/is_dom.d.ts                                    
+36 notice 647B   lib/utils/is_dom.js                                      
+36 notice 291B   lib/utils/is_dom.js.map                                  
+36 notice 466B   lib/utils/is_markdown.d.ts                               
+36 notice 736B   lib/utils/is_markdown.js                                 
+36 notice 356B   lib/utils/is_markdown.js.map                             
+36 notice 228B   lib/utils/numbering_dictionary.d.ts                      
+36 notice 162B   lib/utils/numbering_dictionary.js                        
+36 notice 165B   lib/utils/numbering_dictionary.js.map                    
+36 notice 1.4kB  lib/utils/parse_heading.d.ts                             
+36 notice 2.2kB  lib/utils/parse_heading.js                               
+36 notice 1.2kB  lib/utils/parse_heading.js.map                           
+36 notice 469B   lib/utils/sanitizer_options.d.ts                         
+36 notice 1.1kB  lib/utils/sanitizer_options.js                           
+36 notice 641B   lib/utils/sanitizer_options.js.map                       
+36 notice 2.4kB  package.json                                             
+36 notice 8.9kB  style/base.css                                           
+36 notice 922B   style/index.css                                          
+36 notice 836B   style/index.js                                           
+37 notice === Tarball Details ===
+38 notice name:          @jupyterlab/toc                         
+38 notice version:       5.4.3                                   
+38 notice filename:      @jupyterlab/toc-5.4.3.tgz               
+38 notice package size:  43.6 kB                                 
+38 notice unpacked size: 220.7 kB                                
+38 notice shasum:        94d1573d64cc6818827cdeb6e06d4d9b8a97d8de
+38 notice integrity:     sha512-D9mSY1cDsctM5[...]E/Oab5ajGrWyg==
+38 notice total files:   119                                     
+39 notice
+40 timing command:pack Completed in 1068ms
+41 notice
+41 notice New minor version of npm available! 8.5.5 -> 8.13.2
+41 notice Changelog: <https://github.com/npm/cli/releases/tag/v8.13.2>
+41 notice Run `npm install -g npm@8.13.2` to update!
+41 notice
+42 verbose exit 0
+43 timing npm Completed in 1279ms
+44 info ok
